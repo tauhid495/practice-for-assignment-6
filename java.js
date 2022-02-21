@@ -41,4 +41,38 @@
 //     return (number % 2 != 0);
 // })
 // console.log(odd);
+// 6
+// var obj = {
+//   'Students': [{
+//     "name": "Raj",
+//     "Age": "15",
+//     "RollNumber": "123",
+//     "Marks": "99",
 
+//   }, {
+//     "name": "Aman",
+//     "Age": "14",
+//     "RollNumber": "223",
+//     "Marks": "69",
+//   },
+//   {
+//     "name": "Vivek",
+//     "price": "5000",
+//     "RollNumber": "253",
+//     "Marks": "89",
+//   },
+//   ]
+// };
+
+// var newArray = obj.Students.filter(price => {
+//   return price.price == 5000;
+// }
+// );
+// console.log(newArray);
+
+// 8
+const food = [12, 30, 25, 28];
+const [vat, ruti, chal] = food;
+console.log(vat);
+console.log(chal);
+console.log(ruti);
