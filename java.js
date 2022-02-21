@@ -71,8 +71,17 @@
 // console.log(newArray);
 
 // 8
-const food = [12, 30, 25, 28];
-const [vat, ruti, chal] = food;
-console.log(vat);
-console.log(chal);
-console.log(ruti);
+// const food = [12, 30, 25, 28];
+// const [vat, ruti, chal] = food;
+// const chal = three;
+// console.log(vat);
+// console.log(chal);
+// console.log(ruti);
+
+let food = {
+    vat: '12kg',
+    gom: '30kg',
+    dal: '15kg',
+};
+let { rice, wheet, dal: three } = food;
+console.log(three);
